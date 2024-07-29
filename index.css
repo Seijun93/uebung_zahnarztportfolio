@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: OpenSans;
+    src: url("./src/fonts/OpenSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("./src/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("./src/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("./src/fonts/Poppins-Light.ttf") format("truetype");
+}
+
+body {
+    font-family: Poppins-Light;
+}
+
+/* Typescale */
+
+h1 {
+    font-size: 5.61rem;
+}
+
+h2 {
+    font-size: 4.209rem;
+}
+
+h3 {
+    font-size: 3.157rem;
+}
+
+h4 {
+    font-size: 2.369rem;
+}
+
+h5 {
+    font-size: 1.777rem;
+}
+
+h6 {
+    font-size: 1.333rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+small {
+    font-size: 0.75rem;
+}
+
+.container {
+    width: 95%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    html {
+        font-size: 1.1rem
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 1.125rem
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+    html {
+        font-size: 1.15rem
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 70%;
+    }
+    html {
+        font-size: 1.2rem
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        width: 60%;
+    }
+    html {
+        font-size: 1.25rem
+    }
+}
